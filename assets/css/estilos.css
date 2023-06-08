@@ -1,0 +1,150 @@
+/*
+    Autor: Rafael Sánchez
+    Cédula de Identidad: 30.393.016
+    Multimedia y Diseño Web 
+    N-913
+*/
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+
+    scroll-behavior: smooth;
+    transition: 0.5;
+
+}
+
+.container{
+
+    display: table;
+    width: 100%;
+    height: 100%;
+
+}
+
+header{
+
+    display: table;
+    width: 100%;
+    height: 300px; 
+    background-image: url(../img/universo1.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 10px rgb(0, 0, 0);
+    background-size: 100% 100%;
+
+}
+
+nav{
+    background-color: rgb(231, 229, 229);
+    color: black;
+ }
+ nav ol{
+     display: flex;
+ }
+ nav ol li{
+     list-style: none;
+     border-right: 1px solid black;
+ }
+ 
+ nav ol li a{
+    text-decoration: none;
+    display: block;
+    padding: 18px 18px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ nav ol li a:hover{
+    background-color: rgb(63, 74, 167);
+    color:black;
+    transition: all .3s;
+    
+}
+ 
+
+.cuerpo{
+    background: linear-gradient(rgb(0, 0, 0), #09032c, #20031c);
+    display: table;
+    width: 100%;
+}
+
+p{
+
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: table;
+    text-align: justify;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.imagen{
+
+    display: table;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    border: gray 2px solid;
+
+}
+
+.imagenVertical{
+
+    display: table;
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    border: gray 2px solid;
+
+}
+
+.imagenHorizontal{
+
+    display: table;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    border: gray 2px solid;
+
+}
+
+
+h2{
+    text-shadow: 3px 2px 4px rgb(150, 150, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 4%;
+    margin-bottom: 1%;
+    color: white;
+}
+h3{
+    text-shadow: 3px 2px 4px rgb(150, 150, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1%;
+    margin-left: 5%;
+    color: white;
+}
+
+
+footer{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1.5%;
+}
